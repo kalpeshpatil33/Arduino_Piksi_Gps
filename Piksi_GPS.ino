@@ -1,6 +1,10 @@
-// Reading and parsing GPS data from PIKSI GPS Swift Navighation system
-// -- Time -- North -- East -- Down -- Accuracy in North -- Accuracy in East -- Distance
-// vel
+// Reading and parsing GPS data from PIKSI GPS Swift Navighation system //
+// ---------------------------- Modified by ----------------------------//
+// --------------------------- Kalpesh Patil ---------------------------//
+// ---------------------------------------------------------------------//
+
+// Reads position_Baseline NED data
+// Reads velocity_Baseline NED data
 
 const unsigned int MAX_INPUT = 200;
 String line1, line2;
